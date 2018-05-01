@@ -1,0 +1,12 @@
+  create database student;
+  create database employee;
+  create database production;
+  use student;
+  create table student1 (name varchar(26), rollno varchar(10), clas varchar(56), marks int(100));
+  use employee;
+  create table employee1 (name varchar(26), badgeno  varchar(15),sector   varchar(20), age int(50) );
+  use  production;
+  create table production1 ( productname varchar(26) ,expiry_date  int(50) );
+  show database student;
+  drop table production1;
+  alter table employee1 add surname varchar(26);
